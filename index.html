@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasim Ameen</title>
+
+    <!-- scripts -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b43e8251c9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark menu-btn" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu-btn" onclick="openMenu()"></i>
+            </nav>
+
+
+            <div class="header-text">
+                <p>Mobile Developer</p>
+                <h1>
+                    Hi, I'm <span>Jasim</span>
+                    <br>
+                    Ameen From India
+                </h1>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- --------- about -------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <!-- about me description -->
+                    <p>
+                        I am a mobile developer from India. I have been working in the mobile development field for 2
+                        years.
+                        I have worked on many projects and have gained a lot of experience in the field of mobile
+                        development. I have worked on many projects and have gained a lot of experience in the field of
+                        mobile development.
+                    </p>
+
+                    <div class="tap-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+
+                    <!-- Skills -->
+                    <div id="skills" class="tab-contents active-tab">
+                        <ul>
+                            <li>
+                                <span>Mobile Developement</span>
+                                <br>Mobile Developement
+                            </li>
+
+
+                            <li>
+                                <span>Web Developement</span>
+                                <br>Web Developement
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- Experiance -->
+                    <div id="experiance" class="tab-contents">
+                        <ul>
+                            <li>
+                                <span>2021 - Current</span>
+                                <br>Mobile Developer at Swynfords
+                            </li>
+
+                            <li>
+                                <span>2021 - 2022</span>
+                                <br>Mobile Developer Self-Employed
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Education -->
+                    <div id="education" class="tab-contents">
+                        <ul>
+                            <li>
+                                <span>2021</span>
+                                <br>Higher Secondary (Computer Science and Mathematics)
+                            </li>
+                            <li>
+                                <span>2019</span>
+                                <br>High School
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <!-- Heading -->
+            <h1 class="sub-title">What I can Offer <span class="theme-color">?</span></h1>
+
+            <!-- Services List show as grid -->
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Mobile Developement</h2>
+                    <p>
+                        I have been working in the mobile development field for 2 years. I have worked on many projects
+                        and have gained a lot of experience in the field of mobile development.
+                    </p>
+                    <a href="#services">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developement</h2>
+                    <p>
+                        I have been working in the mobile development field for 2 years. I have worked on many projects
+                        and have gained a lot of experience in the field of mobile development.
+                    </p>
+                    <a href="#services">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-hive"></i>
+                    <h2>Blockcharn Developement</h2>
+                    <p>
+                        I have been working in the mobile development field for 2 years. I have worked on many projects
+                        and have gained a lot of experience in the field of mobile development.
+                    </p>
+                    <a href="#services">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+
+            <!-- Heading -->
+            <h1 class="sub-title">My Recent<span class="theme-color">Works 😉</span></h1>
+
+            <!-- Work Sample List -->
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/work-1.png">
+                    <div class="layer">
+                        <h3>Mobile Application</h3>
+                        <p>
+                            Mobile application that helps you to manage your daily tasks.
+                        </p>
+                        <a href="#portfolio"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="assets/work-2.png">
+                    <div class="layer">
+                        <h3>Spotify Clone</h3>
+                        <p>
+                            Music and podcast player thath helps you to listen to your favorite music. and keep you
+                            motivated by listening to billios of live podcasts.
+                        </p>
+                        <a href="#portfolio"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/work-3.png">
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>
+                            Shopping app that helps you to buy your favorite products.
+                            get a great user experiance
+                        </p>
+                        <a href="#portfolio"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- show more button -->
+            <a href="#portfolio" class="btn">Show More</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- left side -->
+                <div class="contact-left">
+                    <!-- Heading -->
+                    <h1 class="sub-title">Contact <span class="theme-color">Me</span></h1>
+                    <p><i class="fa-solid fa-envelope"></i> contact@jasim.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-790-0245-5708</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/jasimameen/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/jasimameen" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/JasimAmeen02" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="mailto://jasimameen.official@gmail.com">
+                            <i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <!-- Download resume -->
+                    <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn2">Resume</a>
+                </div>
+
+                <!-- right side -->
+                <div class="contact-right">
+                    <form name="submit-form">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email required">
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+                    <!-- message responce -->
+                    <span id="form-status">Success!</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Copyright © Jasim Ameen. show some love <i class="fa-solid fa-heart"></i></p>
+
+
+
+            <!-- JavaScript -->
+            <script>
+                var tabLinks = document.getElementsByClassName("tab-links")
+                var tabContents = document.getElementsByClassName("tab-contents")
+
+                function openTab(tabName) {
+                    for (tabContent of tabContents) tabContent.style.display = "none"
+
+                    for (tabLink of tabLinks) tabLink.classList.remove("active-link")
+
+                    document.getElementById(tabName).style.display = "block";
+                    event.currentTarget.classList.add("active-link")
+                }
+            </script>
+
+            <!-- show or close menu screen -->
+            <script>
+                var sidemenu = document.getElementById('sidemenu')
+
+                function openMenu() {
+                    sidemenu.style.right = "0";
+                }
+
+                function closeMenu() {
+                    sidemenu.style.right = "-200px";
+                }
+
+            </script>
+
+            <!-- contact form send message -->
+            <script>
+                var form = document.forms['submit-form'] // form to submit
+                var status = document.getElementById('form-status') // used to show send status
+
+                // show status
+                function sendMessage() {
+                    status.innerHTML = 'Success!'
+                    status.style.display = "block"
+                    setTimeout(() => {
+                        status.style.display = "none"
+                    }, 5000);
+                    // form.reset()
+                }
+
+            </script>
+
+
+
+</body>
+
+</html>
